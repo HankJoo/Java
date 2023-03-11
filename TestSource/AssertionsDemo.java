@@ -55,6 +55,7 @@ class AssertionsDemo {
                 + "to avoid constructing complex messages unnecessarily.");
     }
 
+    //그룹핑한 Assertions~.
     @Test
     void groupedAssertions() {
         // In a grouped assertion all assertions are executed, and all
@@ -69,6 +70,7 @@ class AssertionsDemo {
     void dependentAssertions() {
         // Within a code block, if an assertion fails the
         // subsequent code in the same block will be skipped.
+        // 조건을 부여해서
         assertAll("properties",
                 () -> {
                     String firstName = person.firstName();
