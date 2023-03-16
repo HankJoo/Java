@@ -26,6 +26,8 @@ public class ItemController {
     void useDI(){
         itemService.createItem(keyboardItem);
         assertThat(applicationContext.getBean(ItemService.class)).isNotNull();
+        assertThat(itemService.getItem(1).size()).isEqualTo(2);
+        assertThat(itemService.getItem(1).size()).isEqualTo(2);
+        assertThat(itemService.getItem(1).size()).isEqualTo(2);
     }
-
 }
