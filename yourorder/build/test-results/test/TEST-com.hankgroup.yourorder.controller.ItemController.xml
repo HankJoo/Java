@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.hankgroup.yourorder.controller.ItemController" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-03-16T13:32:50" hostname="DESKTOP-HANK" time="0.313">
+  <properties/>
+  <testcase name="autowired bean from applicationContext" classname="com.hankgroup.yourorder.controller.ItemController" time="0.313"/>
+  <system-out><![CDATA[22:32:49.487 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [ItemController]: using SpringBootContextLoader
+22:32:49.491 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.hankgroup.yourorder.controller.ItemController]: no resource found for suffixes {-context.xml, Context.groovy}.
+22:32:49.492 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.hankgroup.yourorder.controller.ItemController]: ItemController does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+22:32:49.510 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using ContextCustomizers for test class [ItemController]: [DisableObservabilityContextCustomizer, PropertyMappingContextCustomizer, Customizer, ExcludeFilterContextCustomizer, DuplicateJsonObjectContextCustomizer, MockitoContextCustomizer, TestRestTemplateContextCustomizer]
+22:32:49.562 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [D:\git_private\yourorder\build\classes\java\main\com\hankgroup\yourorder\yourOrderApplication.class]
+22:32:49.563 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.hankgroup.yourorder.yourOrderApplication for test class com.hankgroup.yourorder.controller.ItemController
+22:32:49.630 [Test worker] DEBUG org.springframework.test.context.util.TestContextSpringFactoriesUtils - Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom TestExecutionListener classes or make the default TestExecutionListener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+22:32:49.631 [Test worker] DEBUG org.springframework.test.context.util.TestContextSpringFactoriesUtils - Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom TestExecutionListener classes or make the default TestExecutionListener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+22:32:49.633 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners for test class [ItemController]: [ServletTestExecutionListener, DirtiesContextBeforeModesTestExecutionListener, ApplicationEventsTestExecutionListener, MockitoTestExecutionListener, DependencyInjectionTestExecutionListener, DirtiesContextTestExecutionListener, EventPublishingTestExecutionListener, RestDocsTestExecutionListener, MockRestServiceServerResetTestExecutionListener, MockMvcPrintOnlyOnFailureTestExecutionListener, WebDriverTestExecutionListener, MockWebServiceServerTestExecutionListener, ResetMocksTestExecutionListener]
+22:32:49.634 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: class [ItemController], class annotated with @DirtiesContext [false] with mode [null]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.0.4)
+
+2023-03-16T22:32:49.819+09:00  INFO 33508 --- [    Test worker] c.h.yourorder.controller.ItemController  : Starting ItemController using Java 19.0.2 with PID 33508 (started by hank in D:\git_private\yourorder)
+2023-03-16T22:32:49.821+09:00  INFO 33508 --- [    Test worker] c.h.yourorder.controller.ItemController  : No active profile set, falling back to 1 default profile: "default"
+### 1. ItemConfig:: itemService bean created
+### 2. ItemConfig:: itemRepository bean created
+2023-03-16T22:32:50.561+09:00  INFO 33508 --- [    Test worker] c.h.yourorder.controller.ItemController  : Started ItemController in 0.887 seconds (process running for 1.865)
+##### ItemService: create a new Item
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
